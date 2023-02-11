@@ -32,6 +32,7 @@ const ProgressBar = ({ value, size }) => {
       <ProgressWrapper>
         <Progress style={{ width: `${clampedValue}%` }} />
       </ProgressWrapper>
+      <VisuallyHidden>{clampedValue}%</VisuallyHidden>
     </Wrapper>
   );
 };
